@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            height: 600px;
+            width: 400px;
+            background-color: rgb(234, 229, 239);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 15px;
+            box-shadow: 10px 10px 20px black;
+        }
+
+        .image {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            background-image: url("https://cdn.pixabay.com/photo/2024/07/14/14/42/woman-8894656_1280.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 200px;
+            border-radius: 50%;
+        }
+
+        .lesil {
+            text-align: center;
+            line-height: 4px;
+        }
+        .commet{
+            min-width: 70%;
+            display: flex;
+           /* margin-top: 80px; */
+           justify-content: space-between;
+                       
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+        }
+        .btn{
+            padding: 10px 55px;
+            border-radius: 20px;
+            background-color: aqua;
+            border: none;
+            font-size: 18px;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+        </div>
+        <div class="lesil">
+            <h2>Lesile Walton</h2>
+            <h4>Lorem ipsum</h4>
+            <h4>Lorem ipsum lesil walton</h4>
+        </div>
+        <div class="commet">
+            <div>
+                <p>14</p>
+                <p>Likes</p>
+            </div>
+            <div>
+                <p>141</p>
+                <p>comments</p>
+            </div>
+            <div>
+                <p>$17</p>
+                <p>Shares</p>
+            </div>
+        </div>
+        <button class="btn">Submit</button>
+        skip
+    </div>
+</body>
+
+</html>

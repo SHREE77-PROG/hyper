@@ -1,0 +1,134 @@
+h1 {
+    /* color: red; */
+}
+
+/* ID Selector */
+#test {
+    background-color: blueviolet;
+    color: blanchedalmond;
+    font-size: 22px;
+}
+
+/* class selector */
+.demo {
+    background-color: black;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+/* Tag name */
+div {
+    background-color: blue;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+/* Grouping selector */
+
+header,
+navbar,
+footer {
+    font-size: 22px;
+    background-color: brown;
+    color: rgb(232, 209, 193);
+}
+
+/* Univerasal selector */
+
+* {
+    background-color: aqua;
+}
+
+/* priority */
+
+#tes{
+    background-color: gold;  
+    font-size: 25px;
+}
+
+.den{
+    background-color: brown !important;  
+    font-size: 35px !important;
+}
+p{
+    background-color: blue;
+    font-size: 45px;
+}
+
+/* combinator selector */
+
+/* Descendent selector (space) */
+
+section div {
+    background-color: brown;
+    font-size: 25px;
+}
+
+/* child selector (>) */
+
+article>div {
+font-size: 35px;
+color: rgb(30, 0, 128);
+}
+
+section+h1{
+    background-color: chartreuse;
+    font-size: 35px;
+}
+
+section~h1{
+
+}
+
+.flex1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.flex2{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.flex3{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.flex4{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+#fle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+

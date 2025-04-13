@@ -1,0 +1,29 @@
+#cont{
+    height: 600px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img{
+    height: 350px;
+    width: 550px;
+    background-color: blue;
+    background-image: url("http://wallup.net/wp-content/uploads/2016/03/10/319576-photography-landscape-nature-water-grass-trees-plants-sunrise-lake.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+ }
+ #temp{
+    height: 350px;
+    width: 550px;
+    /* background-color: chocolate; */
+    
+ }
+ #temp>h1{
+    margin-top: 80px;
+ }
+ #btn{
+    padding: 12px 35px;
+    margin-top: 50px;
+ }

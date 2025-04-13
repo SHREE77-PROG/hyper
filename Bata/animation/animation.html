@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            height: 400px;
+            width: 400px;
+            /* background-color: blue; */
+            background-image: url("https://wallpaperaccess.com/full/1787851.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* position: absolute;
+            left: 400px;
+            top: 200px; */
+            animation-name: bheem;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+            animation-play-state: running;
+            animation-direction: alternate;
+        }
+
+        @keyframes bheem {
+            /* from{
+                background-image: url("https://wallpaperaccess.com/full/4815087.jpg");
+            }
+            to{
+                background-image: url("https://wallpaperaccess.com/full/3612892.png");
+
+            }  */
+
+            0% {
+                background-image: url("https://wallpaperaccess.com/full/1787851.jpg");
+                position: relative;
+                left: 0;
+                top: 0;
+            }
+
+            25% {
+                background-image: url("https://www.chhotabheem.com/image/catalog/wallpaper/1920x1200/series_03.jpg");
+                position: relative;
+                left: 300px;
+                top: 0;
+            }
+
+            50% {
+                background-image: url("https://wallpaperaccess.com/full/1787895.jpg");
+                position: relative;
+                top: 300px;
+                right: 0;
+                left: 300px;
+            }
+
+            75% {
+                background-image: url("http://1.bp.blogspot.com/-PLIrnNZhyTw/T6uKYhJlIPI/AAAAAAAABow/WVaP4mmt8vo/s1600/Chota-Bheem-Cartoon-Pictures-6.jpg");
+             position: relative;
+                right: 300px;
+                top: 300px;
+                left: 0;
+               
+            }
+
+            100% {
+                background-image: url("https://images-na.ssl-images-amazon.com/images/S/pv-target-images/fa60a04aac1ced0db63dd61cbfabcac9a1c051b6c0e4be74338a4f46d8170c07._RI_V_TTW_.jpg");
+                position: relative;
+                bottom: 300px;
+                top: 0;
+                left: 0;
+               
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+</body>
+
+</html>

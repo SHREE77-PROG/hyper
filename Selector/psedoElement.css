@@ -1,0 +1,33 @@
+p{
+    font-size: 20px;
+}
+
+p::first-letter{
+    background-color: blueviolet;
+    color: blue;
+    font-size: 45px;
+}
+p::first-line{
+    background-color: brown;
+    font-size: 30px;
+    color: white;
+}
+p::before{
+  content: "❤️";
+}
+
+p::after{
+    content: "Thank you";
+    font-size: 30px;
+    color: brown;
+}
+
+li::marker{
+    font-size: 35px;
+    color: brown;
+}
+
+p::selection{
+    background-color: chartreuse;
+    color: white;
+}

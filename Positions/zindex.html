@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #sud {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            z-index: 3;
+            /* heighr z-index value will appear first  */
+            filter: brightness(50%) ;
+            filter:blur(30px);
+            filter: drop-shadow(15px 15px 15px black);
+            filter: grayscale(40%);
+            filter: hue-rotate(560deg);
+            filter: invert(250%);
+            filter: saturate(400%);
+            filter: opacity(1);
+            filter: sepia(100%);
+
+        }
+
+        #ysh {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            z-index: 2;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <img id="sud" src="https://photosfile.com/wp-content/uploads/2023/04/Kiccha-Sudeep-Photos-2.jpg" alt="">
+        <img id="ysh"
+            src="https://images.hindustantimes.com/img/2022/02/28/1600x900/7832faee-9632-11ec-9470-469037641c48_1646069142106.jpg"
+            alt="">
+    </div>
+</body>
+
+</html>

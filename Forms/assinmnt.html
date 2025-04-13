@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume</title>
+</head>
+
+<body>
+    <center>
+        <h1>Resume</h1>
+        <form action="it hold data base file name" method="get">
+            <fieldset>
+                <legend>Student Resume</legend>
+                <table>
+                    <tr>
+                        <td><label for="">Profile</label></td>
+                        <td><img src="https://www.myperfectresume.com/wp-content/uploads/2022/09/write-resume-img.png" alt="" height="70px" width="160px"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="first">firstName:</label></td>
+                        <td><input type="text" id="first" name="frst" placeholder="Enter firstName" required ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="last">lastName:</label></td>
+                        <td><input type="text" id="last" name="lst" placeholder="Enter lastName" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fath">fatherName:</label></td>
+                        <td><input type="text" id="fath" name="lst" placeholder="Enter fatherName" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">mobileNumber:</label></td>
+                        <td><input type="number" id="mobile" name="mble" placeholder="Enter mobile Number" minlength="0" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password:</label></td>
+                        <td><input type="password" id="pass" name="mble" autofocus placeholder="Enter mobile Number" minlength="0" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adhar">adharNumber:</label><br></td>
+                        <td><input type="number" id="adhar" name="adhr" placeholder="Enter adhar Number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pan">panNumber</label></td>
+                        <td><input type="text" id="pan" name="pan" placeholder="Enter pan Number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="file">upLoadFile:</label></td>
+                        <td><input type="file" id="file" </td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+                        <input type="radio" name="gen" value="male" id="gender">Male
+                        <input type="radio" name="gen" value="female" id="gender">Female
+                        <input type="radio" name="gen" value="Other" id="gender">Other
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="exp">Year of experience</label></td>
+                        <td><input type="number" name="" id="exp" placeholder="Enter numbers only"></td>
+                    </tr><td><label for="skill">Skills</label></td>
+                    <td><select name="" id="skill" size="3">
+                        <option value="html">HTML</option>
+                        <option value="css">CSSL</option>
+                        <option value="javascript" selected>JAVASCRIPT</option>
+                        <option value="core java">CORE JAVA</option>
+                        <option value="spring" disabled>SPRING</option>
+                        <option value="react">React</option>
+                    </select></td>
+                    <tr>
+                        <tr>
+                            <td><label for="notice">Notice period</label></td>
+                            <td><input type="number" id="notice" placeholder="Enter number only"></td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td><label for="range">Range</label></td>
+                        <td><input type="range" id="range" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="color">Color</label></td>
+                        <td><input type="color" id="color" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="serch">Search URL</label></td>
+                        <td><input type="search" id="serch" ></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset" value="cancel"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button type="submit">Submit</button>
+                        </td>
+                        <td><button type="reset">Reset</button></td>
+                    </tr>
+                  
+
+                </table>
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>

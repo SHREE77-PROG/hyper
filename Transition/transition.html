@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            text-decoration: 2px solid grey underline;
+            color: blue;
+            text-shadow: 10px 10px 15px red;
+        }
+
+        #transition {
+            height: 400px;
+            width: 400px;
+            border-radius: 100px;
+            background-color: blueviolet;
+            position: absolute;
+            left: 500px;
+            /* transition-property:background-color,width,height;
+            transition-duration: 10s;
+            transition-timing-function: linear;
+           transition-delay: 5s; */
+            /* transition: background-color 10s linear 5s, width 10s linear 5s, height 10s linear 5s; */
+            transition: all 2s linear 2s;
+        }
+
+        #transition:hover {
+            /* background-color: goldenrod; */
+            /* width: 600px;
+            height: 600px; */
+            /* transform: rotate(360deg); */
+            /* transform: translate(100px,100px); */
+            /* transform: skew(60deg,130deg); */
+            /* transform: scaleX(2);
+           transform: scaleY(2); */
+            transform: scale(4, 4);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transition property</h1>
+    <div id="transition">
+
+    </div>
+</body>
+
+</html>

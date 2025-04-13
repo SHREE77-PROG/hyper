@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        #grid-container {
+            height: 700px;
+            width: 90%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #parent {
+            height: 500px;
+            width: 60%;
+            /* background-color: brown; */
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            grid-template-rows: 150px 150px 150px 150px 150px;
+            gap: 10px 10px;
+
+
+        }
+
+        .item {
+            /* height: 100px;
+        width: 100px; */
+            background-color: blue;
+
+        }
+
+        #grid-container4 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        #grid-container5 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        #grid-container8 {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        #grid-container9 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .item1 {
+            /* height: 40px;
+            width: 40px; */
+            background-color: brown;
+        }
+
+        #grid-con2 {
+            display: grid;
+            grid-template-columns: 70px 70px;
+            grid-template-rows: 70px 70px;
+           gap: 4px 4px;           
+        }
+        #grid-container1{
+            height: 150px;
+            width: 150px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       
+        #grid-cont1 {
+            background-image: url("https://2.bp.blogspot.com/-Zc4dp3gTQVA/U5wadm2pc0I/AAAAAAAAD9U/XppEtzJ5vcY/s1600/chota-bheem-chutki-images-HD-wallpapers-widescreen-2014-Latest.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 70px;
+        }
+        #grid-cont2{
+         background-image: url("https://www.itl.cat/pngfile/big/232-2323273_chota-bheem-cartoon-chutki.jpg");
+         background-repeat: no-repeat;
+         background-size: 100% 70px;
+        }
+        #grid-cont3{
+          background-image: url("https://i.ytimg.com/vi/TfVx9OCZ0oY/maxresdefault.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 70px;           
+        }
+        #grid-cont4{
+          background-image: url("https://www.hdwallpapers.in/download/chhota_bheem_and_chutki_cartoon_image_hd_cartoon-1920x1080.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 70px;  
+        }
+
+        .item2{
+            /* height: 70px;
+            width: 70px; */
+            background-color: aqua;
+            color: black;
+        }
+        #grid-etem{
+            display: grid;
+            grid-template-columns: 70px 100px 70px 70px;
+            grid-template-rows: 70px 70px ;
+            gap: 6px 6px;
+        }
+        #grid-container4{
+            height: 150px;
+            width: 470px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #grid-etem2{
+         background-image: url("http://www.chhotabheem.com/image/catalog/wallpaper/1920x1200/series_7.jpg");
+         background-repeat: no-repeat;
+         background-size: 100% 70px;
+        }
+        #grid-etem3{
+          background-image: url("https://images-na.ssl-images-amazon.com/images/S/pv-target-images/af900e2cd63a8ce2324c5350ece7e8964f253932f8443e5ed73aab3e0d9c66cd._RI_V_TTW_.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 70px;  
+        }
+        #grid-etem6{
+         background-image: url("https://i.pinimg.com/736x/49/27/f1/4927f142776aaa619327ac0bade2a9bf.jpg");
+         background-repeat: no-repeat;
+         background-size: 100% 70px;   
+        }
+        #grid-etem7{
+          background-image: url("https://i.ytimg.com/vi/L6rZ_80ZiBk/maxresdefault.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 70px;  
+        }
+        #grid-etem1{
+          background-image: url("https://hindi.cdn.zeenews.com/hindi/sites/default/files/2022/11/17/1429630-chhota-bheem.jpg?im=FitAndFill=(1200,900)");
+          background-repeat: no-repeat;
+          background-size: 100% 70px;  
+        }
+        #grid-etem4{
+          background-image: url("https://wallpapercave.com/wp/wp9180685.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 70px;  
+        }
+        #grid-etem5{
+          background-image: url("https://i.pinimg.com/originals/80/48/9e/80489eb773230aec49d45787931b9b63.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 70px;  
+        }
+        #grid-etem8{
+          background-image: url("https://getwallpapers.com/wallpaper/full/2/e/0/819614-vertical-chhota-bheem-wallpapers-1920x1080-ipad-retina.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 70px;  
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div id="grid-container">
+        <div id="parent">
+            <div id="grid-container1" class="item">
+                <div id="grid-con2">
+                    <div id="grid-cont1" class="item1"></div>
+                    <div id="grid-cont2" class="item1"></div>
+                    <div id="grid-cont3" class="item1"></div>
+                    <div id="grid-cont4" class="item1"></div>
+                </div>
+            </div>
+            <div id="grid-container2" class="item">grid-item2</div>
+            <div id="grid-container3" class="item">grid-item3</div>
+            <div id="grid-container4" class="item">
+                <div id="grid-etem">
+                    <div id="grid-etem1" class="item2"></div>
+                    <div id="grid-etem2" class="item2"></div>
+                    <div id="grid-etem3" class="item2"></div>
+                    <div id="grid-etem4" class="item2"></div>
+                    <div id="grid-etem5" class="item2"></div>
+                    <div id="grid-etem6" class="item2"></div>
+                    <div id="grid-etem7" class="item2"></div>
+                    <div id="grid-etem8" class="item2"></div>
+                </div>
+               
+            </div>
+            <div id="grid-container5" class="item">grid-item5</div>
+            <div id="grid-container6" class="item">grid-item6</div>
+            <div id="grid-container7" class="item">grid-item7</div>
+            <div id="grid-container8" class="item">grid-item8</div>
+            <div id="grid-container9" class="item">grid-item9</div>
+            <div id="grid-container10" class="item">grid-item10</div>
+            <!-- <div id="grid-container11" class="item">grid-item11</div>
+            <div id="grid-container12" class="item">grid-item12</div>
+            <div id="grid-container13" class="item">grid-item13</div>
+            <div id="grid-container14" class="item">grid-item14</div> -->
+        </div>
+
+    </div>
+</body>
+
+</html>

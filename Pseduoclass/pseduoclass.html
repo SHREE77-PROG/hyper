@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header div:first-child {
+            background-color: blue;
+            font-size: 35px;
+        }
+
+        header div:last-child {
+            background-color: blueviolet;
+            font-size: 25px;
+        }
+
+        header div:nth-child(3) {
+            background-color: brown;
+            font-size: 50px;
+        }
+
+        header h1:nth-last-child(2) {
+            background-color: chartreuse;
+            color: blue;
+        }
+
+        /* we can use nth-last-child(even or odd) */
+
+        header div:nth-last-child(3) {
+            background-color: crimson;
+            font-size: 60px;
+        }
+
+        header div:nth-last-child(5) {
+            background-color: aqua;
+            font-size: 80px;
+        }
+       header h2:first-child{
+        background-color: black;
+        color: white;
+       }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>Item1</div>
+        <div>Item2</div>
+        <div>Item3</div>
+        <div>Item4
+            <h2>hi i am shreedhar</h2>
+        </div>
+        <h1>Hello</h1>
+        <div>Item5</div>
+    </header>
+</body>
+
+</html>

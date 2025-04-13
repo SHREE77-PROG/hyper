@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 50px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#prdt {
+    display: flex;
+    justify-content: space-between;
+    min-width: 40%;
+}
+
+#prdt a {
+    text-decoration: none;
+    color: white;
+}
+
+/* @media(max-width:700px) {
+    #prdt {
+        min-width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(max-width:500px) {
+    #prdt {
+        min-width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+} */

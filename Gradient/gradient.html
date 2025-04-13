@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        #line {
+            height: 400px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #linear1 {
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+            background: linear-gradient(to top right, red 0%, red 10%, yellow 10%, yellow 50%, blue 50%);
+        }
+
+        #linear2 {
+            height: 300px;
+            width: 300px;
+            background-color: rgb(226, 137, 43);
+            background: repeating-linear-gradient(red 0%, red 10%, white 10%, white 50%)
+        }
+
+        #linear3 {
+            height: 300px;
+            width: 300px;
+            background-color: rgb(43, 226, 64);
+            background: radial-gradient(yellow 0%, yellow 50%, red 50%);
+        }
+
+        #linear4 {
+            height: 300px;
+            width: 300px;
+            background-color: rgb(226, 43, 119);
+            background: repeating-radial-gradient(pink 0%, pink 10%, red 10%, red 20%);
+        }
+
+        #conic {
+            height: 400px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+        }
+
+        #radial1 {
+            height: 300px;
+            width: 600px;
+            background: linear-gradient(orange 0%, orange 33.3%, white 33.3%, white 66.6%, rgb(21, 255, 0) 66.6%);
+        }
+
+        #radial2 {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(242, 245, 245);
+            background-image: repeating-conic-gradient(blue 0%, blue 2%, white 2%, white 4%);
+            position: absolute;
+            margin-right: 550px;
+            border-radius: 50%;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div id="line">
+        <div id="linear1"></div>
+        <div id="linear2"></div>
+        <div id="linear3"></div>
+        <div id="linear4"></div>
+    </div>
+    <div id="conic">
+        <div id="radial1"></div>
+        <div id="radial2"></div>
+        <div id="radial3"></div>
+        <div id="radial3"></div>
+    </div>
+
+</body>
+
+</html>

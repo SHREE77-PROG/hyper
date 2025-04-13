@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid1</title>
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            grid-template-rows: 200px 300px 200px;
+            gap: 8px 8px;
+        }
+
+        #sub-container {
+            height: 800px;
+            width: 100%;
+            /* background-color: black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            background-color: blueviolet;
+        }
+
+        .item1 {
+            /* height: 60px;
+            width: 60px; */
+            background-color: blue;
+        }
+
+        #cont {
+            display: grid;
+            grid-template-columns: 90px 90px;
+            grid-template-rows: 90px 90px;
+            gap: 6px 6px;
+        }
+
+        #grid11 {
+            height: 200px;
+            width: 200px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #grid21 {
+            background-image: url("https://tse2.mm.bing.net/th?id=OIP.59mV44kNiflHLcnWXTJPPAHaEU&pid=Api&P=0&h=180");
+            background-repeat: no-repeat;
+            background-size: 100% 90px;
+        }
+
+        #grid22 {
+            background-image: url("https://photosfile.com/wp-content/uploads/2023/04/Kiccha-Sudeep-Photos-Thumbnail.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 90px;
+        }
+
+        #grid23 {
+            background-image: url("https://i.pinimg.com/736x/37/7b/22/377b22537e488e5a4532244800909f4c.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 90px;
+        }
+
+        #grid24 {
+            background-image: url("https://wallpapers.com/images/hd/sudeep-with-wings-art-ejcnecc7923yo85n.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 90px;
+        }
+
+        #grid15 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        #grid16 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+
+        .item2 {
+            /* height: 120px;
+            width: 120px; */
+            /* background-color: brown; */
+        }
+
+        #grid-cont {
+            display: grid;
+            grid-template-columns: 190px 190px;
+            grid-template-rows: 135px 135px;
+            gap: 6px 6px;
+
+        }
+
+        #grid15 {
+            height: 300px;
+            width: 400px;
+            /* background-color: red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #grd31 {
+            background-image: url("https://wallpapercave.com/wp/wp5122540.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 190px;
+        }
+
+        #grd32 {
+            background-image: url("https://images.ottplay.com/images/kiccha-sudeep-turns-max-944.jpg?impolicy=ottplay-20210210&width=1200&height=675");
+            background-repeat: no-repeat;
+            background-size: 100% 190px;
+        }
+
+        #grd33 {
+            background-image: url("https://wallpapers.com/images/hd/sudeep-comfy-in-a-yellow-chair-brctumghkf7zybv2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 190px;
+        }
+
+        #grd34 {
+            background-image: url("https://www.filmibeat.com/wimg/desktop/2019/08/sudeep_10.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 190px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sub-container">
+        <div id="container">
+
+            <div id="grid11" class="item">
+                <div id="cont">
+                    <div id="grid21" class="item1"></div>
+                    <div id="grid22" class="item1"></div>
+                    <div id="grid23" class="item1"></div>
+                    <div id="grid24" class="item1"></div>
+                </div>
+
+            </div>
+
+            <div id="grid12" class="item">item2</div>
+            <div id="grid13" class="item">item3</div>
+            <div id="grid14" class="item">item4</div>
+            <div id="grid15" class="item">
+                <div id="grid-cont">
+                    <div id="grd31" class="item2"></div>
+                    <div id="grd32" class="item2"></div>
+                    <div id="grd33" class="item2"></div>
+                    <div id="grd34" class="item2"></div>
+                </div>
+
+            </div>
+            <div id="grid16" class="item">item6</div>
+            <div id="grid17" class="item">item7</div>
+            <div id="grid18" class="item">item8</div>
+            <div id="grid19" class="item">item9</div>
+            <div id="grid110" class="item">item10</div>
+            <!-- <div id="grid111" class="item">item11</div>
+            <div id="grid112" class="item">item12</div> -->
+        </div>
+
+    </div>
+</body>
+
+</html>
